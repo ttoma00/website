@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta Oss - Parfymhuset</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Start</a></li>
+                        <li class="nav-item"><a class="nav-link" href="produkter.html">Produkter</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kundkorg.html" title="Kundkorg">
+                                <i class="bi bi-bag-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Kontaktinnehåll -->
+    <main class="container">
+        <h1 class="text-center my-5">Kontakta Oss</h1>
+        <p class="text-center lead mb-5">Fyll i formuläret nedan eller kontakta oss direkt.</p>
+
+        <div class="row">
+            <!-- Kontaktformulär -->
+            <div class="col-md-8">
+                <h3>Skicka ett meddelande</h3>
+                <form action="feedback.html" method="GET" class="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Ditt namn</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Din e-postadress</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Ditt meddelande</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Skicka meddelande</button>
+                </form>
+            </div>
+
+            <!-- Kontaktinformation -->
+            <div class="col-md-4 contact-info">
+                <h3>Våra uppgifter</h3>
+                <p><strong>Adress:</strong><br>Parfymhuset 123<br>111 22 Stockholm</p>
+                <p><strong>E-post:</strong><br><a href="mailto:info@parfymhuset.se">info@parfymhuset.se</a></p>
+                <p><strong>Telefon:</strong><br>08-123 456 78</p>
+
+                <!-- Sociala medier (kan länka till riktga sidor för social medier genom att byta # till länken)-->
+                <h3 class="mt-4">Följ oss</h3>
+                <p>
+                    <a href="#" class="me-2">Facebook</a>
+                    <a href="#" class="mx-2">Instagram</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Parfymhuset</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

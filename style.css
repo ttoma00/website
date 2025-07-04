@@ -1,0 +1,145 @@
+/*Gemensam stilmall för hela hemsidan
+
+/* ----- Allmänna stilar & Kropp ----- */
+body {
+    /* Sätter en grundläggande typsnittsfamilj och bakgrundsfärg för hela webbplatsen. */
+    font-family: Arial, sans-serif;
+    background-color: #fdfaf6; 
+    color: #333333; 
+    line-height: 26px; 
+}
+
+/* ----- Navigation & Header ----- */
+.navbar {
+    /* Anpassar navigationsfältet med en specifik bakgrundsfärg och skugga. */
+    background-color: #ffffff; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    /* Stilar för logotypen/varumärket i navigationen. */
+    font-weight: bold;
+    font-size: 24px; 
+    color: #2c3e50; 
+}
+
+.nav-link {
+    /* Stilar för navigeringslänkarna. */
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555; 
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    /* Effekt när muspekaren är över en länk. */
+    color: #000000; 
+}
+
+main {
+    /* Ger utrymme mellan sidans huvudinnehåll och headern/footern. */
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+h1, h2, h3 {
+    /* Gemensamma stilar för rubriker. */
+    font-family: 'Times New Roman'; 
+    color: #2c3e50;
+}
+
+.hero-section {
+    /* Stilar för den stora introduktionssektionen. */
+    background: url('https://placehold.co/1200x400/f3e5d8/2c3e50?text=Parfymhuset') no-repeat center center;
+    background-size: cover; /* Ser till att bilden täcker hela ytan. */
+    color: #ffffff; 
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+/* ----- Produktkort ----- */
+.product-card {
+    border: 1px solid #eeeeee; 
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.product-card:hover {
+    /* Effekt när muspekaren är över ett produktkort. */
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    /* Ser till att produktbilden passar snyggt i kortet. */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 600px; 
+    object-fit: cover; 
+}
+
+.card-title {
+    /* Anpassar produktens titel i kortet. */
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2c3e50;
+}
+
+.card-price {
+    /* Stilar för priset. */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* ----- Knappar ----- */
+.btn-primary {
+    /* Anpassad stil för primära knappar. */
+    background-color: #2c3e50;
+    border-color: #2c3e50; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    /* Effekt vid hover. */
+    background-color: #1a2531; 
+    border-color: #1a2531;
+}
+
+.cta-section {
+    /* Sektion som uppmanar till handling. */
+    background-color: #eaf0f6; 
+    padding: 50px 0px;
+    text-align: center;
+}
+
+/* ----- Kontaktformulär ----- */
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    /* Justerar radavståndet för kontaktinformationen. */
+    line-height: 28px;
+}
+
+/* ----- Footer ----- */
+.footer {
+    /* Stilar för sidfoten. */
+    background-color: #2c3e50; 
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
